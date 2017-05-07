@@ -1,0 +1,10 @@
+JavaScript, HTML, CSS tasks
+
+1.	Create a JS Calculator. It must load in a separate window, allow brackets, the four arithmetic operations, sin(x), cos(x), sqr(x), sqrt(x),%, pow
+2.	Create a web form with the following fields: First name, Last name, address, email,password,confirm password, web site, about me, country, city. Use google maps api: http://code.google.com/apis/maps/documentation/javascript/ to visualize the user address on the map. Submit the form to an email. All fields must have javascript validation, onchange. Use jQuery for validation and styling. 
+3.	Create an email sending form. 
+a.	Should contain To list (comma separated emails) CC list (check if there is a repeating email from To list and show an error),Subject and Text Body. 
+b.	 Allow the user to use drag’n’drop to copy text between fields. Show the user’s physical location above the form. Allow the user to save the email. Use HTML 5 features.
+c.	Validate email addresses and  ask question if blank subject, message body. 
+All JS and CSS should be in external files. Use fluid CSS design for forms. 
+All code should be under version control  on GIT.

@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+		<script type="text/javascript" src ="WebForm.js"></script>
+		<script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=API_KEY"></script>
+		<link rel="stylesheet" type="text/css" href="WebForm.css">
+	</head>
+		<body>
+			<form action ="mailto:b.koprinski@omisoft.eu" method ="post" enctype="text/plain" name ="form" id="form">
+			<div class="box">
+			<p id="head"></p>
+				
+				<div>
+					<label for="firstname">First Name: </label>
+					<input name ="First Name: " type="text" id="firstname">
+					<p id="p1"></p> 
+				</div>
+				<div>
+					<label for="lastname">Last Name: </label>
+					<input name ="Last Name: " type="text" id="lastname">
+					<p id="p2"></p> 
+				</div>
+				<div>
+					<label for="address">Address: </label>
+					<input name = "Address: " type="text" id="address">
+					<p id="p3"></p> 
+				</div>
+				<div>
+					<label for="email">E-mail: </label>
+					<input name ="E-mail: " type="text" id="email">
+					<p id="p4"></p> 
+				</div>
+				<div>
+					<label for="password">Password: </label>
+					<input class ="password" type="password" id="password">
+					<p id="p5"></p> 
+				</div>
+				<div>
+					<label for="conPassword">Confirm Password: </label>
+					<input class ="conPassword" type="password" id="conPassword">
+					<p id="p6"></p> 
+				</div>
+				<div>
+					<label for="webSite">Web Site: </label>
+					<input name ="Web Site: " type="text" id="webSite">
+					<p id="p7"></p> 
+				</div>
+				<div>
+					<label for="country">Country: </label>
+					<select name="Country: " id="country">
+					<option>Please Choose</option>
+					<option>Bulgaria</option>
+					<option>United States</option>
+					<option>Russia</option>
+					<option>Germany</option>
+					</select>
+				</div>
+				<div>
+					<label for="city">City: </label>
+					<input name ="City: " type="text" id="city">
+				</div>
+				<div>
+					<label for="about">About me: </label>
+					<textarea name="About me: " id="about" style="height:100px; width:300px"></textarea>
+				</div>
+				<div id="map-canvas"></div>
+				<div class="button">
+					<button value="form" id="submit">Submit</button>
+				</div>
+			</div>
+			</form>
+		</body>
+</html>
