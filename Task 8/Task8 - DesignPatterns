@@ -1,0 +1,20 @@
+Задачи за Design Patterns
+
+1.	Abstract Factory
+The Design Patern Abstract Factory should be realized. Create a class (for example MyClass) that has two constructors (the second one should be default).This class is instantiated by the MyClassFactory. The Factory should have a public visibility and it has a method called createInstance. The pattern should be realized in two ways:
+•	By FactoryMethod (which is anoher design pattern) (guideline: use the new operator and a constructor)
+•	By Reflection. (guideline: the method createInstance(String className)
+2.	Singleton
+The Design Patern Singleton should be realized. Create a class called Singleton. The class should have a private constructor only. The class should be implemented in an appropriate way such that only a single instance of it should be created (i.e. no more than one instance should be instantiated in the memory).
+3.	Да се направи Proxy на клас – обект представящ се за друг.
+Клиента работи с обект от клас А, но реално вижда че работи само с клас Б. 
+Реален клас Proxy
+Integer class IntegerProxy
+Да се направи IntegerProxy. Има 1 мениджър (IntegerFactory), който създава инстанции чрез метода си createInstance(). Клиентите работят само с IntegerProxy, а не с реалния Integer.
+
+4.	Да се реализира DAO и DTO Design Patern  като за източник на данни се ползват два класа, Parrent и Child, всеки с миниму 4 собствени атрибута.
+5.	Да се реализира Service Locator, като се ползва DAO-то от предходната задача.
+6.	Да се реализира Chain of responsibility (Command Chain)
+7.	Да се реализира Template method
+
+Всички pattern-и трябва да могат да се обяснят и да се дадат примери – кога бихме ги използвали.
