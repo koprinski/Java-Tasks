@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script type="text/javascript" src ="EmailForm.js"></script>
+		<script type="text/javascript"src="https://maps.googleapis.com/maps/api/js?key=API_KEY"></script>
+		<link rel="stylesheet" type="text/css" href="EmailForm.css">
+		<script type="text/javascript" src ="DragAndDropFile.js"></script>
+	
+	
+	
+	
+	
+	</head>
+	
+	<body>
+		<form action ="mailto:" method ="post" enctype="text/plain" name ="form" id="form">
+			<div class="box">
+			<div>
+				<label for="eList">To: </label>
+				<input name ="To: " type="text" id="eList" style="margin-left:28;width:747px;">
+				<p id="p1"></p> 
+			</div>
+			<div>
+				<label for="subject">Subject: </label>
+				<input name ="Subject: " type="text" id="subject" style="width:745px;">
+				<p id="p2"></p> 
+			</div>
+			<div>
+				<label for="textBody">Text: </label></br>
+				<textarea name="Text: " id="textBody" style="height:600px; width:800px"></textarea>
+				<p id="p3"></p>
+				 
+			</div>
+			<div id="map-canvas"></div>
+			<div id="dragandrophandler">Drag & Drop Files Here</div>
+			<div id="status1"></div>
+			<div class="button">
+				<button value="form" id="submit" >Submit</button>
+				<button type="button"id="save" disabled="disabled" >Save</button>
+				<button type="reset" id="reset" value="reset" >Reset</button>
+			</div>
+			
+			</div>
+	
+	
+	
+	
+	
+		</form>
+	
+	
+	
+	</body>
+
+
+
+
+
+
+
+</html>
