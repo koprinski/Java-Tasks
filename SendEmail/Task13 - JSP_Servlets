@@ -1,0 +1,15 @@
+JSP, Servlets and Email
+
+1. Modify the final task from JS theme, so that the form is submited to the server.
+a)	 Validate the data also on the server
+b)	 Provide 3 forms – Login, Register and Send email.
+c)	 The register form must contain  the fields : First name, Last name, email (unique), password, age. 
+d)	After registering the user is shown a Success page and is redirected after 5 seconds to the login page.
+e)	The login form must contain the following fields (Email, Password). It should be the first page loaded when you enter the web site address. It has to have a link to the register form. An email/password combo must be registered before you can login.
+f)	 After successful login the page redirects to the email form. 
+g)	The user should not be able  to open the email page if not logged in
+h)	 After entering the email details, the email form is submitted and an email is generated in the servlet. After that the email is sent using JavaMail API.
+i)	The email form should allow attaching and sending files
+j)	Use JSP for the pages and servlets for the backend logic.
+k)	The  data from the registration and the email data (without the file attachments) should be kept in a MySQL database.
+ 

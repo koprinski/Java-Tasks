@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+		<script type="text/javascript" src ="Register.js"></script>
+		<link rel="stylesheet" type="text/css" href="index.css">
+	
+	</head>
+	<body>
+		<label id="label">Omisoft Mail Register Form</label>
+		<form action="register" method="post" id="form">
+			<div>
+				<label for="firstname">First Name: </label>
+				<input name ="firstname" type="text" id="firstname">
+				<p id="p1"></p> 
+			</div>
+			<div>
+				<label for="lastname">Last Name: </label>
+				<input name ="lastname" type="text" id="lastname">
+				<p id="p2"></p> 
+			</div>
+			<div>
+				<label for="email">E-mail: </label>
+				<input name ="email" type="text" id="email">
+				<p id="p3"></p> 
+			</div>
+			<div>
+				<label for="password">Password: </label>
+				<input class ="password" type="password" id="password" name="password">
+				<p id="p4"></p> 
+			</div>
+			<div>
+				<label for="age">Age: </label>
+				<input name ="age" type="text" id="age">
+				<p id="p5"></p> 
+			</div>
+			<div class="button">
+				<button value="form" id="submit">Submit</button>
+			</div>
+		</form>
+	</body>
+
+</html>

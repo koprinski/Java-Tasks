@@ -1,0 +1,42 @@
+ body
+{
+background-color: #bdbdbd;
+width: 100%;
+height: 100%;
+}
+
+.box
+{
+position:relative;
+top:10px;
+left:28%;
+}
+
+#submit
+{
+width:263px;
+height:35px;
+}
+
+#reset
+{
+width:263px;
+height:35px;
+}
+
+#map-canvas
+{
+width:387px;
+height:300px;
+margin-top:20px;
+margin-bottom:20px;
+margin-left:210px;
+}
+
+ p 
+{
+font-size:15px;
+color:red;
+margin-left:60px
+}
+
