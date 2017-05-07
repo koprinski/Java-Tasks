@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DutiesAdditional>
+    <bonus>30.0</bonus>
+    <daysOff>23</daysOff>
+    <dutieNumber>112</dutieNumber>
+    <education>bachelor</education>
+    <experience>1</experience>
+    <idNumber>11230</idNumber>
+    <infoNumber>8</infoNumber>
+    <nameDoctor>Grigor Dimitrov</nameDoctor>
+    <payCheck>1100.0</payCheck>
+    <workingPosition>junior doctor</workingPosition>
+</DutiesAdditional>

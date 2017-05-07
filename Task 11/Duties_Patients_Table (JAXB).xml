@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DutiesPatients>
+    <age>27</age>
+    <dutieNumber>112</dutieNumber>
+    <education>bachelor</education>
+    <id>8301011202</id>
+    <idNumber>11230</idNumber>
+    <nameDoctor>Konstantin Filipov</nameDoctor>
+    <namePatient>Radoslav Hristov</namePatient>
+    <payCheck>1000.0</payCheck>
+    <workingPosition>doctor</workingPosition>
+</DutiesPatients>

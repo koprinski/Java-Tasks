@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DbVisualizer-Export>
+<!--
+  Duties_Additional_Info_Table
+-->
+
+<ROWSET>
+  <ROW>
+    <Name>Diana Dqnkova</Name>
+    <WorkingPosition>manager</WorkingPosition>
+    <Education>masters</Education>
+    <PayCheck>2000.0</PayCheck>
+    <IdNumber>11223</IdNumber>
+    <DutieNumber>105</DutieNumber>
+    <Experience>40</Experience>
+    <Bonus>300.0</Bonus>
+    <DaysOff>23</DaysOff>
+    <InfoNumber>1</InfoNumber>
+  </ROW>
+  <ROW>
+    <Name>Inna Nakova</Name>
+    <WorkingPosition>junior doctor</WorkingPosition>
+    <Education>bachelor</Education>
+    <PayCheck>1000.0</PayCheck>
+    <IdNumber>11224</IdNumber>
+    <DutieNumber>106</DutieNumber>
+    <Experience>4</Experience>
+    <Bonus>30.0</Bonus>
+    <DaysOff>28</DaysOff>
+    <InfoNumber>2</InfoNumber>
+  </ROW>
+  <ROW>
+    <Name>Galq Petrova</Name>
+    <WorkingPosition>junior doctor</WorkingPosition>
+    <Education>bachelor</Education>
+    <PayCheck>1200.0</PayCheck>
+    <IdNumber>11225</IdNumber>
+    <DutieNumber>107</DutieNumber>
+    <Experience>5</Experience>
+    <Bonus>35.0</Bonus>
+    <DaysOff>28</DaysOff>
+    <InfoNumber>3</InfoNumber>
+  </ROW>
+  <ROW>
+    <Name>Ivelina Caneva</Name>
+    <WorkingPosition>doctor</WorkingPosition>
+    <Education>masters</Education>
+    <PayCheck>1500.0</PayCheck>
+    <IdNumber>11226</IdNumber>
+    <DutieNumber>108</DutieNumber>
+    <Experience>8</Experience>
+    <Bonus>50.0</Bonus>
+    <DaysOff>15</DaysOff>
+    <InfoNumber>4</InfoNumber>
+  </ROW>
+  <ROW>
+    <Name>Stefana Nencheva</Name>
+    <WorkingPosition>doctor</WorkingPosition>
+    <Education>masters</Education>
+    <PayCheck>1500.0</PayCheck>
+    <IdNumber>11227</IdNumber>
+    <DutieNumber>109</DutieNumber>
+    <Experience>8</Experience>
+    <Bonus>50.0</Bonus>
+    <DaysOff>30</DaysOff>
+    <InfoNumber>5</InfoNumber>
+  </ROW>
+  <ROW>
+    <Name>Nikol Coneva</Name>
+    <WorkingPosition>junior doctor</WorkingPosition>
+    <Education>bachelor</Education>
+    <PayCheck>1100.0</PayCheck>
+    <IdNumber>11228</IdNumber>
+    <DutieNumber>110</DutieNumber>
+    <Experience>2</Experience>
+    <Bonus>20.0</Bonus>
+    <DaysOff>5</DaysOff>
+    <InfoNumber>6</InfoNumber>
+  </ROW>
+  <ROW>
+    <Name>Desislava Dimitrova</Name>
+    <WorkingPosition>senior doctor</WorkingPosition>
+    <Education>bachelor</Education>
+    <PayCheck>1800.0</PayCheck>
+    <IdNumber>11229</IdNumber>
+    <DutieNumber>111</DutieNumber>
+    <Experience>25</Experience>
+    <Bonus>150.0</Bonus>
+    <DaysOff>20</DaysOff>
+    <InfoNumber>7</InfoNumber>
+  </ROW>
+</ROWSET>
+</DbVisualizer-Export>
