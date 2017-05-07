@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>JS Calculator</title>
+		<script type="text/javascript" src ="Calculator.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="Calculator.css">
+	</head>
+	<body>
+		<form name = "Calc">
+			<div class="box">
+				<div class="display">
+					<input type="text" name="Input" size="16"  class="field left" readonly> </br>
+				</div>
+		
+				<div class="keys">
+		
+					<p><input type="button" class="button blue"  name="sin" value="sin" onClick="sinFunc();">
+					<input type="button" class="button blue"  name="cos" value="cos" onClick="cosFunc();">
+					<input type="button" class="button blue" name="sqrt" value="sqrt" onClick="sqrtFunc();">
+					<input type="button" class="button blue" name="sqr" value="sqr" onClick="sqrFunc();"></p>
+					<input type="button" class="button gray" name="seven" value="7" onClick="Calc.Input.value += '7'">
+					<input type="button" class="button gray" name="eigth" value="8" onClick="Calc.Input.value += '8'">
+					<input type="button" class="button gray" name="nine" value="9" onClick="Calc.Input.value += '9'">
+					<input type="button" class="button pink" name="divide" value="/" onClick="divFunc();"></p>
+					<input type="button" class="button gray" name="four" value="4" onClick="Calc.Input.value += '4'">
+					<input type="button" class="button gray" name="five" value="5" onClick="Calc.Input.value += '5'">
+					<input type="button" class="button gray" name="six" value="6" onClick="Calc.Input.value += '6'">
+					<input type="button" class="button pink" name="multiply" value="*" onClick="multFunc();"></p>
+					<input type="button" class="button gray" name="one" value="1" onClick="Calc.Input.value += '1'">
+					<input type="button" class="button gray" name="two" value="2" onClick="Calc.Input.value += '2'">
+					<input type="button" class="button gray" name="three" value="3" onClick="Calc.Input.value += '3'">
+					<input type="button" class="button pink" name="minus" value="-" onClick="minusFunc();"></p>
+					<input type="button" class="button gray" name="zero" value="0" onClick="zeroFunc();">
+					<input type="button" class="button gray" name="dot" value="." onClick="dotFunc();">
+					<input type="button" class="button gray" name="clear" value="C" onClick="Calc.Input.value = ''">
+					<input type="button" class="button pink" name="plus" value="+" onClick= "plusFunc();"></p>
+					<input type="button" class="button orange" name="equal" value="=" onClick="calculate();">
+					<input type="button" class="button orange" name="backSpace" value="<-" onClick="deleteOne(this);">
+					<input type="button" class="button orange" name="pow" value="pow" onClick="powFunc();">
+					<input type="button" class="button pink" name="percent" value="%" onClick="percentFunc();">	
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
